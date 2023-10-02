@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>caluctore</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="container app pt-5">
+            <div class="father">
+            <form class="form" id="form">
+                <div class="firstN">
+                <label>Enter Your First Number:</label>
+                <input type="number" class="form-control first-number">
+            </div>
+            <div class="op">
+                <select class="operator">
+                    <option disabled selected></option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <div class="secondN">
+                <label>Enter Your Second Number:</label>
+                <input type="number" class="form-control second-number">
+            </div>
+            <button type="submit" class=" submit">Submit <i class="fa-solid fa-face-smile-wink" style="width: 30px; height: 30px; color: orangered;"></i></button>
+            </form>
+            <div class="res">
+                <p><i class="fa-solid fa-square-poll-vertical" style="width: 15px; height: 15px;"></i>Your Result  From This Operation That You Did It Is : <span class="result" id="result" style="color:red;">0</span></p>
+            </div>
+          </div>
+        </div>
+        <script src="./script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+</html>
